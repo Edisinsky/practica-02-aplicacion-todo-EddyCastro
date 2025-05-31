@@ -1,0 +1,6 @@
+madstodolist\service\TareaServiceTest.class
+madstodolist\repository\UsuarioTest.class
+madstodolist\controller\TareaWebTest.class
+madstodolist\controller\UsuarioWebTest.class
+madstodolist\repository\TareaTest.class
+madstodolist\service\UsuarioServiceTest.class
