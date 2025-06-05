@@ -1,4 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zs7YQjvj)
+# Enlace al tablero de Trello del proyecto: [Trello/EddyCastro/epn-todo-list](https://trello.com/invite/b/683a4dd191d724abd0827dce/ATTIcd3feea94bc292167e8077beb2c4538fF18411AD/todolist-epn)
+
 # Aplicación inicial ToDoList
 
 Aplicación ToDoList de la asignatura  Metologias Agiles 2025-A EPN usando Spring Boot y plantillas Thymeleaf.
