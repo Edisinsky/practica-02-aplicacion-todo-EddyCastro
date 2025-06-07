@@ -6,7 +6,9 @@ D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\mads
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\model\Usuario.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\service\InitDbService.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\controller\LoginController.java
+D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\controller\HomeController.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\dto\UsuarioData.java
+D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\controller\GlobalControllerAdvice.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\service\UsuarioService.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\Application.java
 D:\Repositorios-Github\practica-02-aplicacion-todo-EddyCastro\src\main\java\madstodolist\config\ModelMapperConfig.java
