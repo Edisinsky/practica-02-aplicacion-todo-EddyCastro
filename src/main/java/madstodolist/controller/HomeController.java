@@ -11,5 +11,9 @@ public class HomeController {
     public String about(Model model) {
         return "about";
     }
+    @GetMapping("/registrados")
+    public String registrados(Model model) {
+        return "registrados";
+    }
 
 }
