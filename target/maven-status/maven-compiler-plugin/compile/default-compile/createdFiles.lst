@@ -3,6 +3,7 @@ madstodolist\service\TareaService.class
 madstodolist\service\UsuarioService.class
 madstodolist\service\UsuarioServiceException.class
 madstodolist\model\Usuario.class
+madstodolist\controller\GlobalControllerAdvice.class
 madstodolist\controller\TareaController.class
 madstodolist\config\ModelMapperConfig.class
 madstodolist\dto\LoginData.class

@@ -4,8 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="">
+    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Barra de menú funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/formEditarTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/formEditarTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/formLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/formLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/formNuevaTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/formNuevaTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listaTareas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listaTareas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/authentication/ManagerUserSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/authentication/ManagerUserSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/config/ModelMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/config/ModelMapperConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/TareaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/TareaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/exception/TareaNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/exception/TareaNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/exception/UsuarioNoLogeadoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/exception/UsuarioNoLogeadoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/dto/LoginData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/dto/LoginData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/dto/RegistroData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/dto/RegistroData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/dto/TareaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/dto/TareaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/dto/UsuarioData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/dto/UsuarioData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/model/Tarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/model/Tarea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/repository/TareaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/repository/TareaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/InitDbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/InitDbService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/TareaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/TareaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/TareaServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/TareaServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioService$LoginStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioService$LoginStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/service/UsuarioServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/formEditarTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/formEditarTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/formLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/formLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/formNuevaTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/formNuevaTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/listaTareas.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listaTareas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/AcercaDeWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/AcercaDeWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/TareaWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/TareaWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/UsuarioWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/UsuarioWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/repository/TareaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/repository/TareaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/repository/UsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/repository/UsuarioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/service/TareaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/service/TareaServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/service/UsuarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/service/UsuarioServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +113,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;barra-menu&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -133,8 +176,35 @@
       <updated>1748799608944</updated>
       <workItem from="1748799610510" duration="1545000" />
       <workItem from="1749138398901" duration="2305000" />
-      <workItem from="1749140737468" duration="2274000" />
+      <workItem from="1749140737468" duration="3980000" />
+      <workItem from="1749240745133" duration="4720000" />
+      <workItem from="1749261201335" duration="2521000" />
     </task>
+    <task id="LOCAL-00001" summary="Adición del elemento navbar y primera barra de menú de prueba">
+      <option name="closed" value="true" />
+      <created>1749249511970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749249511970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creación de Controller de sesion de usuario para usarlo en Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1749263374369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749263374369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Barra de menú funcional">
+      <option name="closed" value="true" />
+      <created>1749263728325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749263728325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,22 +215,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="acerca-de" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adición del elemento navbar y primera barra de menú de prueba" />
+    <MESSAGE value="Creación de Controller de sesion de usuario para usarlo en Thymeleaf" />
+    <MESSAGE value="Barra de menú funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Barra de menú funcional" />
   </component>
 </project>

@@ -4,6 +4,7 @@
 <head th:replace="fragments :: head (titulo='Login')"></head>
 
 <body>
+<div th:replace="fragments :: navbar"></div>
 <div class="container-fluid">
 
     <h2 th:text="'Nueva tarea para el usuario ' + ${usuario.getNombre()}"></h2>
@@ -21,6 +22,9 @@
 </div>
 
 <div th:replace="fragments::javascript"/>
+
+
+
 
 </body>
 </html>
