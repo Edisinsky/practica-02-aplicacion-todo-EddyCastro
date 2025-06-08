@@ -30,8 +30,8 @@
                         <a class="nav-link"
                            th:href="@{'/usuarios/' + ${usuarioSesion.id} + '/tareas'}">Tareas</a>
                     </li>
-                    <!--Tercer Issue: Página Registrados -->
-                    <li class="nav-item me-auto">
+                    <!--Tercer Issue: Página Registrados (solo si el usuario está logueado)-->
+                    <li  class="nav-item me-auto" th:if="${usuarioSesion != null}">
                         <a class="nav-link" th:href="@{/registrados}">Registrados</a>
                     </li>
                 </ul>
