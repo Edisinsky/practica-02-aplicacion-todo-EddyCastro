@@ -13,10 +13,10 @@ import javax.servlet.http.HttpSession;
 public class GlobalControllerAdvice {
 
     @Autowired
-    private ManagerUserSession managerUserSession;
+    ManagerUserSession managerUserSession;
 
     @Autowired
-    private UsuarioService usuarioService;
+    UsuarioService usuarioService;
 
     @ModelAttribute("usuarioSesion")
     public UsuarioData agregarUsuarioSesion(HttpSession session) {

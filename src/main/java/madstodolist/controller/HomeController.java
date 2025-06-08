@@ -1,5 +1,4 @@
 package madstodolist.controller;
-
 import madstodolist.model.Usuario;
 import madstodolist.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,15 +10,19 @@ import java.util.List;
 
 @Controller
 public class HomeController {
+    private final UsuarioRepository usuarioRepository;
+
     @Autowired
-    UsuarioRepository usuarioRepository;
+    public HomeController(UsuarioRepository usuarioRepository) {
+        this.usuarioRepository = usuarioRepository;
+    }
 
     @GetMapping("/about")
     public String about(Model model) {
         return "about";
     }
-    @GetMapping("/registrados")
 
+    @GetMapping("/registrados")
     public String listaUsuarios(Model model) {
         List<Usuario> usuarios = (List<Usuario>) usuarioRepository.findAll();
         model.addAttribute("usuarios", usuarios);

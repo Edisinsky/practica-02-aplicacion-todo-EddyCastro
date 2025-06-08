@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Barra de menú completamente integrada. V1.1.0">
+    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/madstodolist/controller/GlobalControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/madstodolist/controller/GlobalControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/madstodolist/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/madstodolist/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/formEditarTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/formEditarTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/GlobalControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/GlobalControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registrados.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registrados.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +55,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -64,6 +71,8 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JUnit.All in mads-todolist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GlobalControllerAdviceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ListaRegistradosTest.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
@@ -72,7 +81,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;barra-menu&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;listado-usuarios&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,11 +94,41 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.All in mads-todolist">
+  <component name="RunManager" selected="JUnit.ListaRegistradosTest">
     <configuration name="All in mads-todolist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mads-todolist" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalControllerAdviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mads-todolist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="madstodolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="madstodolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="madstodolist.controller.GlobalControllerAdviceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListaRegistradosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mads-todolist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="madstodolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="madstodolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="madstodolist.controller.ListaRegistradosTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListaRegistradosTest" />
+        <item itemvalue="JUnit.GlobalControllerAdviceTest" />
         <item itemvalue="JUnit.All in mads-todolist" />
       </list>
     </recent_temporary>
@@ -121,8 +162,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -138,7 +179,11 @@
       <workItem from="1749140737468" duration="3980000" />
       <workItem from="1749240745133" duration="4720000" />
       <workItem from="1749261201335" duration="3333000" />
-      <workItem from="1749326310188" duration="1031000" />
+      <workItem from="1749326310188" duration="1499000" />
+      <workItem from="1749327892565" duration="6234000" />
+      <workItem from="1749353928945" duration="4019000" />
+      <workItem from="1749403242965" duration="988000" />
+      <workItem from="1749404341559" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Adición del elemento navbar y primera barra de menú de prueba">
       <option name="closed" value="true" />
@@ -164,7 +209,39 @@
       <option name="project" value="LOCAL" />
       <updated>1749263728325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="agregado método listaUsuarios para usarlo posteriormente con Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1749329643433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749329643433</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pagina de Usuarios Registrados funcional">
+      <option name="closed" value="true" />
+      <created>1749358412505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749358412505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pagina de usuarios ajustada para ser mostrada unicamente al hacer log-in">
+      <option name="closed" value="true" />
+      <created>1749358477876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749358477876</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas">
+      <option name="closed" value="true" />
+      <created>1749358660490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749358660490</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +263,22 @@
     <MESSAGE value="Creación de Controller de sesion de usuario para usarlo en Thymeleaf" />
     <MESSAGE value="Barra de menú funcional" />
     <MESSAGE value="Barra de menú completamente integrada. V1.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Barra de menú completamente integrada. V1.1.0" />
+    <MESSAGE value="agregado método listaUsuarios para usarlo posteriormente con Thymeleaf" />
+    <MESSAGE value="Pagina de Usuarios Registrados funcional" />
+    <MESSAGE value="Pagina de usuarios ajustada para ser mostrada unicamente al hacer log-in" />
+    <MESSAGE value="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/madstodolist/controller/ListaRegistradosTest.java</url>
+          <line>20</line>
+          <properties field="model" class="madstodolist.controller.ListaRegistradosTest" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

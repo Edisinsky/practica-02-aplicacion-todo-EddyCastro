@@ -11,14 +11,12 @@
         <tr>
             <th>Identificador de usuario</th>
             <th>Correo Electrónico</th>
-<!--            <th>Fecha de nacimiento</th>-->
         </tr>
         </thead>
         <tbody>
         <tr th:each="usuario : ${usuarios}">
             <td th:text="${usuario.id}">idUsuario</td>
             <td th:text="${usuario.email}">correo@example.com</td>
-<!--            <td th:text="${usuario.fechaNacimiento}">Fecha de Nacimiento</td>-->
         </tr>
         </tbody>
     </table>
