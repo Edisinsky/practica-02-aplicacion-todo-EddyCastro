@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
-<head th:replace="fragments :: head (titulo='Login')"></head>
+<head th:replace="fragments :: head (titulo='Editar Tarea')"></head>
 
 <body>
 <div th:replace="fragments :: navbar"></div>
@@ -9,7 +9,7 @@
 
 <div class="container-fluid">
 
-    <h2 th:text="'Modificación de la tarea ' + ${tarea.getId()}"></h2>
+    <h2 class="border-bottom pb-2 mb-4 text-uppercase text-dark"  th:text="'Modificación de la tarea ' + ${tarea.getId()}"></h2>
 
     <form method="post" th:action="@{/tareas/{id}/editar(id=${tarea.id})}" th:object="${tareaData}">
         <div class="col-6">

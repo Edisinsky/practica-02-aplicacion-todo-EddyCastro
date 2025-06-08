@@ -2,26 +2,36 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head th:replace="fragments :: head (titulo='Acerca de')"></head>
-<meta charset="UTF-8">
 
 <body>
 
 <!-- Navbar -->
 <div th:replace="fragments :: navbar"></div>
 
-<div class="container-fluid">
-    <div class="container-fluid">
-        <h1>ToDoList</h1>
-        <ul>
-            <li>Desarrollada por Eddy Castro </li>
-            <li>Versión 1.0.1 (en desarrollo)</li>
-            <li>Fecha de release: Pendiente de release</li>
-            <li>Versión 1.0.1</li>
-            <li>Fecha de release: 05/06/2025</li>
-        </ul>
-    </div>
 
+<div class="container my-5 p-4 bg-light border rounded shadow-sm">
+    <h1 class="text-center text-primary fw-bold mb-4">ToDoList</h1>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <strong>Desarrollada por:</strong> Eddy Castro
+        </li>
+        <li class="list-group-item">
+            <strong>Versión:</strong> 1.0.1
+        </li>
+        <li class="list-group-item">
+            <strong>Fecha de release:</strong> 05/06/2025
+        </li>
+        <li class="list-group-item">
+            <strong>Próxima versión:</strong> 1.1.0 (En desarrollo)
+        </li>
+        <li class="list-group-item">
+            <strong>Release futura:</strong> Pendiente de release
+        </li>
+    </ul>
 </div>
+
+
 
 <div th:replace="fragments::javascript"/>
 
