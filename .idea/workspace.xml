@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas">
+    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Añadido enlace a datos del usuario desde la página de registrados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/madstodolist/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/madstodolist/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/descripcionUsuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/descripcionUsuarios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registrados.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registrados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/formEditarTarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/formEditarTarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registrados.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registrados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +184,7 @@
       <workItem from="1749353928945" duration="4019000" />
       <workItem from="1749403242965" duration="988000" />
       <workItem from="1749404341559" duration="1744000" />
-      <workItem from="1749486011634" duration="910000" />
+      <workItem from="1749486011634" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="Adición del elemento navbar y primera barra de menú de prueba">
       <option name="closed" value="true" />
@@ -238,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749358660490</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Añadido enlace a datos del usuario desde la página de registrados">
+      <option name="closed" value="true" />
+      <created>1749492351821</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749492351821</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +276,8 @@
     <MESSAGE value="Pagina de Usuarios Registrados funcional" />
     <MESSAGE value="Pagina de usuarios ajustada para ser mostrada unicamente al hacer log-in" />
     <MESSAGE value="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas" />
+    <MESSAGE value="Añadido enlace a datos del usuario desde la página de registrados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido enlace a datos del usuario desde la página de registrados" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
