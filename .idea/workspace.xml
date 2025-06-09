@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="mapeo de ruta y función en HomeController">
+    <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="Creación de tabla para mostrar los datos del usuario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/descripcionUsuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/descripcionUsuarios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/madstodolist/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,7 @@
       <workItem from="1749353928945" duration="4019000" />
       <workItem from="1749403242965" duration="988000" />
       <workItem from="1749404341559" duration="1744000" />
-      <workItem from="1749486011634" duration="2632000" />
+      <workItem from="1749486011634" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="Adición del elemento navbar y primera barra de menú de prueba">
       <option name="closed" value="true" />
@@ -253,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749493655068</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creación de tabla para mostrar los datos del usuario">
+      <option name="closed" value="true" />
+      <created>1749494058840</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749494058840</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="Ajuste de fecha de nacimiento de usuario inicializado y mejoras en algunas vistas" />
     <MESSAGE value="Añadido enlace a datos del usuario desde la página de registrados" />
     <MESSAGE value="mapeo de ruta y función en HomeController" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapeo de ruta y función en HomeController" />
+    <MESSAGE value="Creación de tabla para mostrar los datos del usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de tabla para mostrar los datos del usuario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
