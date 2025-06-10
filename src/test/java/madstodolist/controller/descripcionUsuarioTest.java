@@ -48,4 +48,21 @@ class descripcionUsuarioTest {
     }
 
 
+    @Test
+    void descripcionUsuariosConIdInexistenteDevuelveVistaConUsuarioNull() {
+        // Arrange
+        Long idInexistente = 99L;
+
+        when(usuarioRepository.findById(idInexistente)).thenReturn(Optional.empty());
+
+        // Act
+        String vista = homeController.descripcionUsuarios(idInexistente, model);
+
+        // Assert
+        verify(usuarioRepository).findById(idInexistente);
+        verify(model).addAttribute("usuario", null);
+        assertEquals("descripcionUsuarios", vista);
+    }
+
+
 }
