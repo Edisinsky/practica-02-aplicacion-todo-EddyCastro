@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8722ec3-47b9-4c64-bdc1-032c6a3f2fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/practica.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/epn-todolist-eddycastro-1.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/epn-todolist-eddycastro-1.1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2025-06-10T13-33-43_375-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2025-06-10T13-33-43_375-jvmRun1.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.GlobalControllerAdviceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.ListaRegistradosTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.descripcionUsuarioTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.GlobalControllerAdviceTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.ListaRegistradosTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.descripcionUsuarioTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.AcercaDeWebTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.AcercaDeWebTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.TareaWebTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.TareaWebTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.UsuarioWebTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.controller.UsuarioWebTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.repository.TareaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.repository.TareaTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.repository.UsuarioTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.repository.UsuarioTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.service.TareaServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.service.TareaServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.service.UsuarioServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-madstodolist.service.UsuarioServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.AcercaDeWebTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.AcercaDeWebTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.TareaWebTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.TareaWebTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.UsuarioWebTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.controller.UsuarioWebTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.repository.TareaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.repository.TareaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.repository.UsuarioTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.repository.UsuarioTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.service.TareaServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.service.TareaServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/madstodolist.service.UsuarioServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/madstodolist.service.UsuarioServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/descripcionUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/madstodolist/controller/descripcionUsuarioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

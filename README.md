@@ -53,6 +53,10 @@ Una vez lanzada la aplicación puedes abrir un navegador y probar la página de 
 [DockerHub/EddyrCastro/epn-todolist](https://hub.docker.com/r/eddyrcastro/epn-todolist)
 
 
+# Enlace al repositorio de GitHub:
+[Repositorio en Github de la práctica](https://github.com/Edisinsky/practica-02-aplicacion-todo-EddyCastro.git)
+
+
 ## **NOTA:** 
 Para la documentación técnica sobre clases, métodos, vistas y pruebas, consulta el archivo 
 [Práctica.md](doc/practica.md) 
